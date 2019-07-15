@@ -1,0 +1,87 @@
+.general {
+  width: 1146px;
+  min-height: 534px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-bottom: -230px;
+  padding-top: 208px;
+  margin-top: 11px;
+}
+
+.general__text {
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 60.35px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.general__image {
+  position: absolute;
+  top: -52px;
+  left: 250px;
+  z-index: -1;
+}
+
+.general__button {
+  display: inline-block;
+  height: 64px;
+  width: 280px;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 44px;
+  color: #fff;
+  background-color: #ed5a3d;
+  border-radius: 32px;
+  text-align: center;
+  margin-top: 0;
+  box-shadow: 0 2px 2px 0 rgba(172, 16, 0, 0.64);
+  text-shadow: 0 2px rgba(160, 32, 11, 0.76);
+}
+
+.general__button a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding-top: 9px;
+}
+
+.general__button:hover {
+  cursor: pointer;
+  background-color: #f17c64;
+}
+
+.general__button:active {
+  background-color: #dc5539;
+}
+
+ul.general__trigger {
+  display: inline-block;
+  margin-top: 0;
+  padding-left: 0;
+  margin-right: 344px;
+}
+
+.general__trigger-part {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border: solid #fff 3px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.general__trigger-part:hover {
+  cursor: pointer;
+  background-color: #b2c1b7;
+}
+
+.general__trigger-part--active {
+  background-color: #fff;
+}
+
+.general__trigger-part--active.general__trigger-part:hover {
+  background-color: #fff;
+}

@@ -1,0 +1,65 @@
+.hits {
+  display: flex;
+  justify-content: space-between;
+  width: 1146px;
+  min-height: 325px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 23px;
+}
+
+.hits__parts {
+  width: 267px;
+  min-height: 325px;
+}
+
+.hits__part {
+  width: 267px;
+  height: 267px;
+  border-radius: 50%;
+  background-color: coral;
+  background-repeat: no-repeat;
+}
+
+.hits__part--first {
+  background-image: url("../../static/img/hits/hit-first.png");
+}
+
+.hits__part--second {
+  background-image: url("../../static/img/hits/hit-second.png");
+}
+
+.hits__part--third {
+  background-image: url("../../static/img/hits/hit-third.png");
+}
+
+.hits__part--fourth {
+  background-image: url("../../static/img/hits/hit-fourth.png");
+}
+
+.hits__text-price {
+  color: #fff;
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: bold;
+  margin-top: 143px;
+  margin-bottom: 0;
+}
+
+.hits__text-weight {
+  color: #fff;
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: bold;
+}
+
+.hits__small-text {
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  text-decoration-line: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.3);
+  margin-top: 13px;
+}

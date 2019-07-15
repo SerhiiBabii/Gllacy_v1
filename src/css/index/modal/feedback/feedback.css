@@ -1,0 +1,116 @@
+.feedback {
+  display: none;
+}
+
+.feedback__fade {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0.6;
+  background-color: #000;
+  z-index: 5;
+}
+
+.feedback__form {
+  height: 435px;
+  width: 477px;
+  background-color: #f8f7f4;
+  border-radius: 9px;
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 10;
+}
+
+.feedback__close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  height: 20px;
+  width: 20px;
+  font-size: 0;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+}
+
+.feedback__close::before,
+.feedback__close::after {
+  content: "";
+
+  position: absolute;
+  top: 9px;
+  left: -1px;
+
+  height: 2px;
+  width: 22px;
+  background-color: #231f20;
+}
+
+.feedback__close::before {
+  transform: rotate(45deg);
+}
+
+.feedback__close::after {
+  transform: rotate(-45deg);
+}
+
+.feedback__title {
+  font-size: 24px;
+  line-height: 28px;
+  color: #323232;
+  margin-left: 24px;
+}
+
+.feedback__area input[type="text"],
+.feedback__area input[type="email"] {
+  height: 42px;
+  width: 265px;
+}
+
+.feedback__area textarea[name="message"] {
+  height: 153px;
+  width: 426px;
+  resize: none;
+}
+
+.feedback__area input[type="text"],
+.feedback__area input[type="email"],
+.feedback__area textarea[name="message"] {
+  border-radius: 4px;
+  border: solid #d3d3d2 1px;
+  margin-left: 24px;
+}
+
+.feedback__area input[type="text"]::placeholder,
+.feedback__area input[type="email"]::placeholder,
+.feedback__area textarea[name="message"]::placeholder {
+  font-size: 16px;
+  line-height: 24px;
+  color: #999999;
+}
+
+.feedback__button {
+  height: 44px;
+  width: 139px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #fefefe;
+  background-color: #f06441;
+  box-shadow: 0 2px 2px 0 rgba(172, 16, 0, 0.64);
+  border-radius: 22px;
+  border: 0;
+
+  position: absolute;
+  bottom: 27px;
+  right: 24px;
+}
+
+.feedback__button:hover {
+  cursor: pointer;
+  background-color: #f17c64;
+}

@@ -1,0 +1,397 @@
+.header {
+  display: flex;
+  width: 1146px;
+  min-height: 112px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding-top: 5px;
+  margin-bottom: -11px;
+}
+
+.header__catalog {
+  display: flex;
+  width: 724px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 18px;
+  margin-top: 16px;
+  padding-left: 9px;
+  padding-top: 2px;
+}
+
+.header__catalog li {
+  line-height: 32px;
+}
+
+.header__catalog a {
+  display: inline-block;
+  height: 32px;
+  text-decoration: none;
+  color: #fff;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.header__catalog li:first-child a {
+  width: 88px;
+}
+
+.header__catalog li:nth-child(2) a {
+  width: 170px;
+}
+
+.header__catalog li:nth-child(3) a {
+  width: 119px;
+}
+
+.header__catalog li a:hover {
+  text-decoration: none;
+  color: #323232;
+  background-color: #f7f6f3;
+  border-radius: 32px;
+}
+
+/*--- header menu ---*/
+
+.header__menu {
+  position: absolute;
+  top: 59px;
+  left: 172px;
+  height: 171px;
+  width: 143px;
+  border-radius: 5px;
+  background-color: #f8f7f4;
+  z-index: 10;
+  display: none;
+}
+
+.header__menu a {
+  font-size: 14px;
+  line-height: 28px;
+  color: #323232;
+}
+
+.header__menu ul {
+  padding-left: 0;
+}
+
+.header__menu li {
+  display: inline-block;
+  height: 28px;
+  width: 122px;
+  padding-left: 21px;
+}
+
+.header__menu li:hover {
+  background-color: #fbded8;
+}
+
+.header__menu li:first-child {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.header__menu li:first-child::after {
+  content: "";
+  position: absolute;
+  top: 38px;
+  left: 6px;
+  height: 1px;
+  width: 128px;
+  background-color: #d1d0ce;
+}
+
+.header__info {
+  padding: 0;
+  width: 267px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/*--- header search ---*/
+
+.header__search {
+  text-align: center;
+  width: 32px;
+  height: 32px;
+  background-color: #a1b5aa;
+  border-radius: 50%;
+}
+
+.header__search img {
+  padding-top: 8px;
+}
+
+.header__search-area {
+  position: absolute;
+  top: 59px;
+  left: 579px;
+  height: 84px;
+  width: 341px;
+  border-radius: 6px;
+  background-color: #f8f7f4;
+}
+
+.header__search-area input {
+  height: 42px;
+  width: 309px;
+  border: solid #d3d3d2 1px;
+  border-radius: 4px;
+  margin: 20px 15px;
+}
+
+/*--- header login ---*/
+
+.header__login {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 16px;
+  height: 32px;
+  width: 92px;
+  color: #fff;
+  background-color: #a1b5aa;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.header__login a {
+  display: inline-block;
+  padding-top: 5px;
+}
+
+.header__login img {
+  padding-right: 2px;
+}
+
+.header__login span {
+  padding-bottom: 9px;
+}
+
+.header__login-area {
+  position: absolute;
+  top: 59px;
+  left: 742px;
+  height: 214px;
+  width: 277px;
+  background-color: #f8f7f4;
+  border-radius: 6px;
+  z-index: 10;
+}
+
+.header__login-area input {
+  height: 40px;
+  width: 239px;
+  background-color: #fff;
+  border: solid #d3d3d2 1px;
+  border-radius: 4px;
+  margin: 20px 20px 0 20px;
+}
+
+.header__login-area__footer {
+  margin-top: 20px;
+}
+
+.header__login-area__footer button {
+  float: left;
+  height: 44px;
+  width: 100px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #fefefe;
+  background-color: #e84d37;
+  border-radius: 22px;
+  box-shadow: 0 2px 2px 0 rgba(172, 16, 0, 0.64);
+  border: none;
+  margin: 0 20px 0 22px;
+}
+
+.header__login-area__footer button:hover {
+  cursor: pointer;
+  background-color: #f17c64;
+}
+
+.header__login-area__footer button:active {
+  background-color: #dc5539;
+}
+
+.header__login-area__footer a {
+  font-size: 13px;
+  line-height: 22px;
+  color: #323232;
+  text-decoration: underline;
+}
+
+.header__login-area__footer p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+li a {
+  font: inherit;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header__login img {
+  padding-top: 2px;
+}
+
+.header__login span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/*--- header basket ---*/
+
+.header__basket {
+  display: inline-block;
+  height: 32px;
+  width: 117px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #fff;
+  font-weight: 400;
+  background-color: #a1b5aa;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.header__basket a {
+  display: inline-block;
+  padding-top: 8px;
+  padding-right: 12px;
+}
+
+.header__basket img {
+  padding-right: 5px;
+}
+
+.header__basket span {
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: bold;
+  padding-bottom: 12px;
+}
+
+.header__basket-area {
+  position: absolute;
+  top: 59px;
+  right: 0px;
+  min-height: 100px;
+  width: 541px;
+  border-radius: 6px;
+  background-color: #f8f7f4;
+  z-index: 20;
+}
+
+.header__basket-total {
+  position: relative;
+  bottom: 8px;
+  left: -12px;
+  text-align: right;
+  min-width: 120px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #323232;
+  margin-top: 21px;
+  margin-bottom: 23px;
+}
+
+.header__basket-button {
+  position: relative;
+  bottom: 17px;
+  left: 355px;
+  height: 44px;
+  width: 172px;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: bold;
+  color: #fefefe;
+  border-radius: 22px;
+  border: 0;
+  background-color: #e84d37;
+  box-shadow: 0 2px 2px 0 rgba(172, 16, 0, 0.64);
+  border: none;
+}
+
+.header__basket-button:hover {
+  cursor: pointer;
+  background-color: #f17c64;
+}
+
+.header__basket-button:active {
+  background-color: #dc5539;
+}
+
+.header__basket-goods button {
+  height: 11px;
+  width: 11px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+}
+
+.header__basket-part {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.header__basket-part-button {
+  margin-left: 11px;
+  margin-right: 19px;
+}
+
+.header__basket-part-image {
+  margin-right: 14px;
+}
+
+.header__basket-part-text {
+  font-size: 13px;
+  color: #323232;
+}
+
+.header__basket-part p:nth-child(3) {
+  width: 217px;
+  margin-right: 31px;
+}
+
+.header__basket-part-text:nth-child(4) {
+  margin-right: 29px;
+}
+
+.header__basket-part-text span {
+  color: #999999;
+}
+
+/*--- header time work ---*/
+
+.header__time-work {
+  font-size: 14px;
+  line-height: 16px;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 19px;
+  margin-bottom: 6px;
+  margin-left: 105px;
+}
+
+/*--- header phone ---*/
+
+.header__phone-time {
+  padding-left: 5px;
+}
+
+.header__phone-number {
+  font-size: 22px;
+  line-height: 24px;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 88px;
+}

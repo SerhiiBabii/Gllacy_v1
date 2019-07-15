@@ -1,0 +1,45 @@
+.crumbs {
+  width: 1146px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 13px;
+}
+
+.crumbs__parts {
+  position: absolute;
+  top: -27px;
+}
+
+.crumbs a {
+  color: #fff;
+  font-size: 14px;
+}
+
+.crumbs__part {
+  position: relative;
+  margin-right: 18px;
+}
+
+.crumbs__part:last-child {
+  margin-right: 0;
+}
+
+.crumbs__part:after {
+  content: "»";
+  position: absolute;
+  right: -14px;
+}
+
+.crumbs__part:last-child:after {
+  content: "";
+}
+
+.crumbs__title {
+  font-size: 35px;
+  line-height: 35px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: bold;
+  color: #fff;
+}

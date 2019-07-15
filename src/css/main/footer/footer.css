@@ -1,0 +1,127 @@
+.footer {
+  min-height: 103px;
+  width: 1146px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 122px;
+  width: 1146px;
+  height: 1px;
+  background-color: #a9bbb1;
+}
+
+.footer__social {
+  width: 267px;
+  display: flex;
+  margin-right: 114px;
+  padding-left: 0;
+}
+
+.footer__social__part {
+  height: 38px;
+  width: 38px;
+  margin-right: 11px;
+}
+
+.footer__social__part div {
+  height: 32px;
+  width: 32px;
+  border: solid #b2c2b9 3px;
+  border-radius: 50%;
+}
+
+svg:hover path {
+  fill: #fff;
+}
+
+.footer__social__part:hover div {
+  border-color: #dae2de;
+}
+
+svg:active path {
+  fill: #e9e9e9;
+}
+
+.footer__info {
+  width: 340px;
+  height: 45px;
+  display: flex;
+  margin-right: 195px;
+  flex-wrap: wrap;
+  padding-top: 15px;
+  padding-left: 43px;
+}
+
+.footer__info__part {
+  height: 24px;
+  color: #fff;
+  font-size: 13px;
+  line-height: 18px;
+  text-decoration: underline;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.footer__info__part:first-child {
+  margin-right: 30px;
+}
+
+.footer__info__part:nth-child(3) {
+  margin-top: -2px;
+}
+
+.footer__info__part:last-child {
+  margin-left: 43px;
+  margin-top: -2px;
+  margin-right: 0;
+}
+
+.footer__info__part--weight {
+  font-weight: bold;
+  position: relative;
+}
+
+.footer__info__part p {
+  margin: 0;
+}
+
+.footer__info a:first-child::before {
+  content: url("../../static/svg/heart.svg");
+  position: absolute;
+  top: 3px;
+  left: -22px;
+  height: 13px;
+  width: 15px;
+}
+
+.footer__copy-right {
+  width: 190px;
+}
+
+.footer__copy-right img {
+  width: 110px;
+  height: 40px;
+}
+
+.footer__copy-right-text {
+  color: #fefefe;
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: 0;
+}
+
+.footer__copy-right-text a {
+  color: #fefefe;
+}
+
+.footer__info a:first-child {
+  position: relative;
+}

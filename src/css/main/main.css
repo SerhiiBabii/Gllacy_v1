@@ -1,0 +1,16 @@
+body {
+  min-width: 1146px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-color: #849d8f;
+  font-family: Roboto;
+}
+
+li {
+  list-style-type: none;
+}
+
+.visually-hidden {
+  display: none;
+}
