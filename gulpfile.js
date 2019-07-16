@@ -16,7 +16,7 @@ const cssIndexFiles = ['./src/css/index/**/*.css', './src/css/main/**/*.css'];
 
 const cssCatalogFiles = ['./src/css/main/**/*.css', './src/css/index-catalog/**/*.css'];
 
-const filesForDelete = ['./build/js', './build/css'];
+const filesForDelete = ['./build'];
 
 function stylesIndex() {
   return gulp

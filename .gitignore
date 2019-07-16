@@ -2,5 +2,4 @@ node_modules
 .gulp
 .vscode
 .products.txt
-build
 src/js/index-catalog/basket/basket.js
