@@ -31,6 +31,6 @@ function init() {
     position: new google.maps.LatLng(59.9387165, 30.3230474),
     map: map,
     title: 'Gllacy',
-    icon: '../../static/svg/pin.svg',
+    icon: './static/svg/pin.svg',
   });
 }
