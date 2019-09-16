@@ -32,7 +32,7 @@ function moveTo(newIndex) {
   switch (i) {
     case 0:
       changingHeader(
-        '../../static/img/general/ice-cream0.png',
+        './static/img/general/ice-cream0.png',
         'Крем-брюле и пломбир\nс малиновым джемом',
         '#849d8f',
         '#a1b5aa'
@@ -40,7 +40,7 @@ function moveTo(newIndex) {
       break;
     case 1:
       changingHeader(
-        '../../static/img/general/ice-cream1.png',
+        './static/img/general/ice-cream1.png',
         'Шоколадный пломбир\nи лимонный сорбет',
         '#8996a6',
         '#a2adb9'
@@ -48,7 +48,7 @@ function moveTo(newIndex) {
       break;
     case 2:
       changingHeader(
-        '../../static/img/general/ice-cream2.png',
+        './static/img/general/ice-cream2.png',
         'Пломбир с помадкой\nи клубничный щербет',
         '#9d8b84',
         '#b3a59f'
