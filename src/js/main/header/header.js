@@ -43,7 +43,7 @@ $(document).ready(function() {
       search_Button.has(e.target).length === 0
     ) {
       $(searchBtn).css('backgroundColor', colorBgBefore);
-      $(searchImg).attr('src', '../../static/svg/loupe.svg');
+      $(searchImg).attr('src', './static/svg/loupe.svg');
       search_Area.addClass('visually-hidden'); // если условия выполняются - скрываем наш элемента
     }
 
@@ -54,7 +54,7 @@ $(document).ready(function() {
     ) {
       $(loginBtn).css('backgroundColor', colorBgBefore);
       $(loginWord).css('color', colorWordBefore);
-      $(loginImg).attr('src', '../../static/svg/entrance--white.svg');
+      $(loginImg).attr('src', './static/svg/entrance--white.svg');
       login_Area.addClass('visually-hidden'); // если условия выполняются - скрываем наш элемент
     }
 
@@ -119,7 +119,7 @@ $(document).ready(function() {
   })
   */
 
-  let src = $(basketWord).text() === 'Пусто' ? '.../../static/svg/basket.svg' : '../../static/svg/basket-red.svg';
+  let src = $(basketWord).text() === 'Пусто' ? './static/svg/basket.svg' : './static/svg/basket-red.svg';
 
   $(basketImg).attr('src', src);
 
@@ -142,11 +142,11 @@ $(document).ready(function() {
       colorBgBefore = colorSelection();
       searchArea.classList.add('visually-hidden');
       searchBtn.style.backgroundColor = colorBgBefore;
-      searchImg.src = '../../static/svg/loupe.svg';
+      searchImg.src = './static/svg/loupe.svg';
 
       loginArea.classList.add('visually-hidden');
       loginBtn.style.backgroundColor = colorBgBefore;
-      loginImg.src = '../../static/svg/entrance--white.svg';
+      loginImg.src = './static/svg/entrance--white.svg';
       loginWord.style.color = colorWordBefore;
 
       if (basketArea && basketArea.style.display === 'block') {
@@ -162,10 +162,10 @@ $(document).ready(function() {
 
     if (searchArea.classList.contains('visually-hidden')) {
       searchBtn.style.backgroundColor = colorBgBefore;
-      searchImg.src = '../../static/svg/loupe.svg';
+      searchImg.src = './static/svg/loupe.svg';
     } else {
       searchBtn.style.backgroundColor = colorBgAfter;
-      searchImg.src = '../../static/svg/loupe--black.svg';
+      searchImg.src = './static/svg/loupe--black.svg';
     }
     e.stopPropagation();
   }
@@ -177,11 +177,11 @@ $(document).ready(function() {
 
     if (loginArea.classList.contains('visually-hidden')) {
       loginBtn.style.backgroundColor = colorBgBefore;
-      loginImg.src = '../../static/svg/entrance--white.svg';
+      loginImg.src = './static/svg/entrance--white.svg';
       loginWord.style.color = colorWordBefore;
     } else {
       loginBtn.style.backgroundColor = colorBgAfter;
-      loginImg.src = '../../static/svg/entrance--black.svg';
+      loginImg.src = './static/svg/entrance--black.svg';
       loginWord.style.color = colorWordAfter;
     }
     e.stopPropagation();
