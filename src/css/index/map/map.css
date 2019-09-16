@@ -44,6 +44,12 @@
   padding-left: 25px;
   margin-top: 1px;
   margin-bottom: 0;
+
+}
+
+.map__large-text a {
+  color: #323232;
+  text-decoration: none;
 }
 
 .map__large-text:nth-child(2) {
