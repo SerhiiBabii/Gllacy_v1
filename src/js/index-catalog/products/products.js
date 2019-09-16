@@ -35,7 +35,7 @@ function goodsOut(data) {
 }
 
 $(document).ready(function() {
-  fetch('http://localhost:3000/static/iceCreams.json')
+  fetch('static/iceCreams.json')
     .then(response => {
       return response.json();
     })
