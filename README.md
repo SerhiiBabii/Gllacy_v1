@@ -43,5 +43,5 @@ You can see two pages in this project:
 
 - The second method:
   > Go to page http://localhost:3000/
-  > Click to **"Каталог"**
-  > In drop down box choose **"Новинки"** and click
+  > Click to **"Catalog"**
+  > In drop down box choose **"New items"** and click

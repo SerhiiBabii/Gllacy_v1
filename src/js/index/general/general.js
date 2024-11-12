@@ -8,7 +8,7 @@ let headerBasketColor = document.querySelector('.header__basket');
 
 triggerParts = $('.general__trigger').children('li');
 
-$('.general__trigger li').click(function() {
+$('.general__trigger li').click(function () {
   var i = $('.general__trigger li').index(this);
   moveTo(i);
 });
@@ -33,7 +33,7 @@ function moveTo(newIndex) {
     case 0:
       changingHeader(
         './static/img/general/ice-cream0.png',
-        'Крем-брюле и пломбир\nс малиновым джемом',
+        'Creme Brulee and Ice Cream\nwith Raspberry Jam',
         '#849d8f',
         '#a1b5aa'
       );
@@ -41,7 +41,7 @@ function moveTo(newIndex) {
     case 1:
       changingHeader(
         './static/img/general/ice-cream1.png',
-        'Шоколадный пломбир\nи лимонный сорбет',
+        'Chocolate ice cream\nand lemon sorbet',
         '#8996a6',
         '#a2adb9'
       );
@@ -49,7 +49,7 @@ function moveTo(newIndex) {
     case 2:
       changingHeader(
         './static/img/general/ice-cream2.png',
-        'Пломбир с помадкой\nи клубничный щербет',
+        'Ice cream with fudge\nand strawberry sherbet',
         '#9d8b84',
         '#b3a59f'
       );

@@ -2,73 +2,73 @@
 	"0001": {
 		"name": "",
 		"cost": 310,
-		"description": "Сливочное с апельсиновым джемом и цитрусовой стружкой",
+		"description": "Creamy with orange jam and citrus shavings",
 		"image": "./static/img/index-catalog/products/01.png"
 	},
 	"0002": {
 		"name": "",
 		"cost": 380,
-		"description": "Сливочно-кофейное с кусочками шоколада",
+		"description": "Creamy coffee with chocolate pieces",
 		"image": "./static/img/index-catalog/products/02.png"
 	},
 	"0003": {
 		"name": "",
 		"cost": 355,
-		"description": "Сливочно-клубничное с присыпкой из белого шоколада",
+		"description": "Creamy strawberry with white chocolate sprinkles",
 		"image": "./static/img/index-catalog/products/03.png"
 	},
 	"0004": {
 		"name": "",
 		"cost": 415,
-		"description": "Сливочное крем-брюле с карамельной подливкой",
+		"description": "Creamy Creme Brulee with Caramel Sauce",
 		"image": "./static/img/index-catalog/products/04.png"
 	},
 	"0005": {
 		"name": "",
 		"cost": 325,
-		"description": "Сливочное с брусничным<br>джемом",
+		"description": "Creamy with lingonberry<br>jam",
 		"image": "./static/img/index-catalog/products/05.png"
 	},
 	"0006": {
 		"name": "",
 		"cost": 410,
-		"description": "Сливочно-черничное с цельными ягодами черники",
+		"description": "Creamy Blueberry with Whole Blueberries",
 		"image": "./static/img/index-catalog/products/06.png"
 	},
 	"0007": {
 		"name": "",
 		"cost": 375,
-		"description": "Сливочно-лимонное с карамельной присыпкой",
+		"description": "Creamy lemon with caramel sprinkles",
 		"image": "./static/img/index-catalog/products/07.png"
 	},
 	"0008": {
 		"name": "",
 		"cost": 320,
-		"description": "Сливочное с шоколадной стружкой",
+		"description": "Butter with chocolate chips",
 		"image": "./static/img/index-catalog/products/08.png"
 	},
 	"0009": {
 		"name": "",
 		"cost": 440,
-		"description": "Сливочно-ванильное с<br>кусочками шоколада",
+		"description": "Creamy vanilla with<br>chocolate pieces",
 		"image": "./static/img/index-catalog/products/09.png"
 	},
 	"0010": {
 		"name": "",
 		"cost": 435,
-		"description": "Сливочноe с ментоловым<br>сиропом",
+		"description": "Creamy with menthol<br>syrup",
 		"image": "./static/img/index-catalog/products/10.png"
 	},
 	"0011": {
 		"name": "",
 		"cost": 355,
-		"description": "Сливочное с кусочками черного шоколада",
+		"description": "Creamy with dark chocolate pieces",
 		"image": "./static/img/index-catalog/products/11.png"
 	},
 	"0012": {
 		"name": "",
 		"cost": 420,
-		"description": "Сливочное с мятным сиропом",
+		"description": "Creamy with mint syrup",
 		"image": "./static/img/index-catalog/products/12.png"
 	}
 }

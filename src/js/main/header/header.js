@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
   //Variables for Search
   let searchBtn = document.querySelector('.header__search');
   let searchArea = document.querySelector('.header__search-area');
@@ -24,11 +24,10 @@ $(document).ready(function() {
 
   document.body.addEventListener('keydown', hiddenModal);
 
-  $(document).on('mouseup', function(e) {
-    // отслеживаем событие клика по веб-документу
+  $(document).on('mouseup', function (e) {
     e.preventDefault();
 
-    let search_Area = $('.header__search-area'); // определяем элемент, к которому будем применять условия (можем указывать ID, класс либо любой другой идентификатор элемента)
+    let search_Area = $('.header__search-area');
     let search_Button = $('.header__search');
     let login_Area = $('.header__login-area');
     let login_Button = $('.header__login');
@@ -38,24 +37,24 @@ $(document).ready(function() {
     colorSelection();
 
     if (
-      !search_Area.is(e.target) && // проверка условия если клик был не по нашему блоку
-      search_Area.has(e.target).length === 0 && // проверка условия если клик не по его дочерним элементам
+      !search_Area.is(e.target) &&
+      search_Area.has(e.target).length === 0 &&
       search_Button.has(e.target).length === 0
     ) {
       $(searchBtn).css('backgroundColor', colorBgBefore);
       $(searchImg).attr('src', './static/svg/loupe.svg');
-      search_Area.addClass('visually-hidden'); // если условия выполняются - скрываем наш элемента
+      search_Area.addClass('visually-hidden');
     }
 
     if (
-      !login_Area.is(e.target) && // проверка условия если клик был не по нашему блоку
-      login_Area.has(e.target).length === 0 && // проверка условия если клик не по его дочерним элементам
+      !login_Area.is(e.target) &&
+      login_Area.has(e.target).length === 0 &&
       login_Button.has(e.target).length === 0
     ) {
       $(loginBtn).css('backgroundColor', colorBgBefore);
       $(loginWord).css('color', colorWordBefore);
       $(loginImg).attr('src', './static/svg/entrance--white.svg');
-      login_Area.addClass('visually-hidden'); // если условия выполняются - скрываем наш элемент
+      login_Area.addClass('visually-hidden');
     }
 
     if (!basketArea) return;
@@ -74,10 +73,10 @@ $(document).ready(function() {
 
   loginBtn.addEventListener('click', showLogin);
 
-  $('.header__catalog li:first-child a').on('click', function(e) {
+  $('.header__catalog li:first-child a').on('click', function (e) {
     e.preventDefault();
     $('.header__menu').slideToggle('slow');
-    $('.header__menu, .header__catalog li:first-child').mouseleave(function() {
+    $('.header__menu, .header__catalog li:first-child').mouseleave(function () {
       if ($('.header__menu').is(':hover') || $('.header__menu').is(':focus')) {
         $('.header__menu').show();
       } else if (
@@ -86,7 +85,7 @@ $(document).ready(function() {
         !$('.header__catalog li:first-child').is(':hover') &&
         !$('.header__catalog li:first-child').is(':focus')
       ) {
-        setTimeout(function() {
+        setTimeout(function () {
           $('.header__menu').fadeOut(400);
         }, 600);
       }
@@ -119,7 +118,7 @@ $(document).ready(function() {
   })
   */
 
-  let src = $(basketWord).text() === 'Пусто' ? './static/svg/basket.svg' : './static/svg/basket-red.svg';
+  let src = $(basketWord).text() === 'Empty' ? './static/svg/basket.svg' : './static/svg/basket-red.svg';
 
   $(basketImg).attr('src', src);
 
